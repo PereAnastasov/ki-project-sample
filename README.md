@@ -1,11 +1,34 @@
-# Basic Flask App
+# Број на проект - Име на проект
+ Еден параграф за тоа што е изработено во проектот. Во рамките на овој проект изработивме систем за...
 
-This small repo demonstrates a proper file structure for a Flask app. The folders named *static* and *templates* are required.
+# Изработиле
+- Петре Петревски 123456
+- Ивана Ивановска 123457
 
-**Routes** and **static files** are handled correctly in all `src` and `href` attributes in the template files.
+# Технологии
+За изработка на проектот се употребени следните технологии/алатки:
+* [Twitter Bootstrap](<http://twitter.github.com/bootstrap/>) 
+- [Python 3.6](https://www.python.org/downloads/release/python-368/)
+* [jQuery](<http://jquery.com>)
 
-The template file `base.html` is used as a shell by the other three HTML templates. This means they insert content into `base.html` according to Jinja2 template rules.
+# Работна верзија
+Веб апликацијата е достапна на следниот линк http://gojam.pythonanywhere.com/
 
-After installing all dependencies, run the app by entering its folder and typing:
+# Инсталација
+Симнете проектот на вашиот компјутер со следната команда
+```sh
+git clone git@github.com:ivankitanovski/ki-project-sample.git
+```
+Влезете во фолдерот на проектот и инсталирајте ги потребните пакети
+```sh
+pip install -r requirements.txt
+```
+Толку, апликцајата е спремна за работа!
 
-`$ python routes.py`
+# Извршување
+Апликацијата може да ја извршите на следниот начин
+```sh
+python run.py
+```
+Откако ќе ја извршите, може да ја пристапите преку http://127.0.0.1:80/
+
